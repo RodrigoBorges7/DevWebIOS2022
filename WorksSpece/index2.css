@@ -1,0 +1,30 @@
+body {
+    
+    background-color: rgb(230, 194, 194);
+    color: #191970;
+    font-family: "Gill Sans", "GiLL Sans MT", calibri,"Trebuchet MS", sans-serif;
+    margin-left: auto;
+    margin-right: auto; 
+    width: 80%;
+
+}
+
+p{
+
+    background-color: antiquewhite;
+    text-align: center;
+    font-size: 0.9em;
+    text-indent: 3em;
+
+}
+
+h1{
+
+    background-color: blue;
+    color: rgb(128, 192, 247);
+    border-top: 2px dotted #e6e6fe;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #e6e6fe;
+
+}
