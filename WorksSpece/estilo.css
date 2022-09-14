@@ -28,3 +28,12 @@ h1{
     border-color: #e6e6fe;
 
 }
+
+h2 {
+    background-color: #aeaed4;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    border-bottom: 2px dashed #191970;
+}
+
+
