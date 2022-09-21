@@ -1,0 +1,47 @@
+@charset "utf-8";
+
+p:first-child{
+    color: blue;
+}
+
+.mylist li:first-child{
+
+    background-color: rgb(255, 206, 8);
+}
+
+.mylist li:nth-child(3){
+    background-color: blueviolet;
+}
+
+.mylist li:last-child{
+    background-color: brown;
+}
+
+a:hover{
+    background-color: aqua;
+}
+
+.paragrafo::before{
+    content: "Leia isso -";
+}
+
+.paragrafo2::after{
+    content: " - Leia mais";
+}
+
+/* First-letter que pega a primeira letra do meu elemento */
+
+#first::first-line{
+    background-color: rgb(214, 171, 255);
+
+}
+
+p::selection{
+    color: aliceblue;
+    background-color: blanchedalmond;
+
+}
+::selection{
+    color: aqua;
+    background-color: aquamarine;
+}
